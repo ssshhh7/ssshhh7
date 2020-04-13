@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>やまぼうし保育園〜お問い合わせ</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:500,700&display=swap&subset=japanese" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <!--reset css-->
+    <link rel="stylesheet" href="css/style_y.css">
+    <!-- style css -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+    
+    <script type="text/javascript" src="js/script.js"></script>
+    <!--js-->
+</head>
+<body>
+    <div class="header_life">
+        <div class="inner">
+        <div class="nav">
+            <ul>
+                <h1>
+                    <a href="index.html">
+                    <img src="img/header_logo.png" alt="やまぼうし保育園" title="やまぼうし保育園">
+                    </a>
+                </h1>
+                <li class="about">
+                    <a href="about.html"><p>当園について</p></a>
+                </li>
+                <li class="info">
+                    <a href="info.html"><p>施設紹介</p></a>
+                </li>
+                <li class="life">
+                    <a href="life.html"><p>園内生活</p></a>
+                </li>
+                <li class="contact">
+                    <a href="contact.html"><p><span>お問い合わせ</span></p></a>
+                </li>
+            </ul><!--nav-->
+        </div><!--nav-->
+        </div><!--inner-->
+    </div><!--header_life-->
+    <div class="contactzone">
+        <div class="inner">
+            <div class="life_title animate">
+                <ul>
+                    <li><img src="img/contact/contact_icon.png" alt="お問い合わせ"></li>
+                    <li><p>お問い合わせ</p></li>
+                </ul>
+            </div><!--life_title-->
+            <div class="quiz animate">
+                <div class="quiz_c">
+                    <div class="quiz_t">
+                        <ul>
+                            <li><img src="img/contact/quiz.png" alt="Q"></li>
+                            <li><p class="quiz_txt">送迎バスはありますか？</p></li>
+                        </ul>
+                    </div><!--quiz_t-->
+                    <div class="quiz_t">
+                        <ul>
+                            <li><img src="img/contact/answer.png" alt="A"></li>
+                            <li><p class="answer_txt">ありません。</p></li>
+                        </ul>
+                    </div><!--quiz_t-->
+                </div><!--quiz_c-->
+                <div class="quiz_c">
+                    <div class="quiz_t">
+                        <ul>
+                            <li><img src="img/contact/quiz.png" alt="Q"></li>
+                            <li><p class="quiz_txt">担当の先生がお休みになった場合の対応を教えてください。</p></li>
+                        </ul>
+                    </div><!--quiz_t-->
+                    <div class="quiz_t">
+                        <ul>
+                            <li><img src="img/contact/answer.png" alt="A"></li>
+                            <li><p class="answer_txt">担当の保育士とは別に、副担当の保育士を設定いたします。</p></li>
+                        </ul>
+                    </div><!--quiz_t-->
+                </div><!--quiz_c-->
+                <div class="quiz_c">
+                    <div class="quiz_t">
+                        <ul>
+                            <li><img src="img/contact/quiz.png" alt="Q"></li>
+                            <li><p class="quiz_txt">お泊まり保育はありますか？</p></li>
+                        </ul>
+                    </div><!--quiz_t-->
+                    <div class="quiz_t">
+                        <ul>
+                            <li><img src="img/contact/answer.png" alt="A"></li>
+                            <li><p class="answer_txt">5歳児で実施する予定です。
+                                人数によってご相談させていただきます。</p></li>
+                        </ul>
+                    </div><!--quiz_t-->
+                </div><!--quiz_c-->
+                <div class="quiz_b">
+                    <img src="img/contact/more_b.png" alt="もっとみる" id="more_b">
+                </div><!--quiz_b-->
+            </div><!--quiz-->
+            <div class="contact_ animate">
+                <div class="contact_banner">
+                    <img src="img/contact/contact_banner.png" alt="やまぼうし保育園に関すること、お気軽にお問い合わせください。">
+                </div><!--contact_banner-->
+                <table>
+                    <tr>
+                        <td>名前</td>
+                        <td><input type="text" name="name" placeholder="例）山田" class="form_txt"></td>
+                    </tr>
+                    <tr>
+                        <td>連絡番号</td>
+                        <td><input type="tel" name="tel" placeholder="例）000-0000-0000" class="form_txt"></td>
+                    </tr>
+                    <tr>
+                        <td>メールアドレス</td>
+                        <td><input type="email" name="mail" placeholder="例）abc@example.com" class="form_txt" style="width: 250px;"></td>
+                    </tr>
+                    <tr>
+                        <td>お問い合わせ種類</td>
+                        <td>
+                            <select size="1" name="select">
+                                <option value="------" selected>------</option>
+                                <option value="入園について">入園にについて</option>
+                                <option value="アクセスについて">アクセスにについて</option>
+                                <option value="延長保育">延長保育</option>
+                                <option value="食事のこと">食事のこと</option>
+                                <option value="習い事に関する">習い事に関する</option>
+                                <option value="その他">その他</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>内容記入欄</td>
+                        <td><textarea name="form_content" class="form_txt_c" cols="50" rows="10" placeholder="お問い合わせの内容をご入力ください。" spellcheck="false"></textarea></td>
+                    </tr>
+                </table>
+                <div class="contact_bn">
+                    <button class="confirm_bn">入力内容の確認</button>
+                </div><!--contact_bn-->
+                
+            </div><!--contact_-->
+        </div><!--inner-->
+        <div class="back_zone">
+            <a href="index.html"><img src="img/oneday/back_button.png" alt="戻るボタン" id="back"></a>
+        </div><!--back-->
+    </div><!--contactzone-->
+
+    <div class="footer">
+        <div class="inner">
+            <div class="footer_title">
+                <p>社会福祉法人萬年青友の会</p>
+                <div class="footer_logo">
+                    <img src="img/footer_logo.png" alt="やまぼうし保育園フッター">
+                </div><!--footer_logo-->
+            </div><!--footer_title-->
+            <ul class="footer_l">
+                <li><a href="about.html">＞当園について</a></li>
+                <li><a href="info.html">＞施設紹介</a></li>
+            </ul><!--footer_l-->
+            <ul class="footer_r">
+                <li><a href="life.html">＞園内生活</a</li>
+                <li><a href="contact.html">＞お問い合わせ</a></li>
+            </ul><!--footer_r-->
+        </div ><!--inner-->
+        <p class="copyright">COPYRIGHT&copy; YAMABOUSHI HOIKUEN ALL RIGHTS RESERVED.</p>
+    </div><!--footer-->
+    <div id="gotop">
+        <a href="#"><img src="img/footer_top.png" alt="トップに戻る"></a>
+    </div><!--gotop-->
+
+</body>
+</html>
